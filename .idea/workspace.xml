@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e10f87-196f-4fdc-b9c4-cd7557f4efd0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/AnaglyphController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/BrightnessMap$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/BrightnessMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/FocusExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/GreyScale.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/ImageFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/MeanShift.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/PixelFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/RegionController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/RegionFilter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/RegionFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/StencilController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/StencilController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/backend/StereoscopeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/enums/DIRECTION_2D.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/enums/FilteringKernel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/enums/ImageBufferType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/enums/StencilKernel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/exceptions/ImageBufferMismatchException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/exceptions/InvalidRegionIDException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/exceptions/MissingArgumentException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/models/ImageBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/models/Pixel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/models/Pixel2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/models/RegionMap$Region.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/models/RegionMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/MainWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/View$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectAwesome/org/purr/view/View.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ij.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ij.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java" afterPath="$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,14 +30,90 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/purr/view/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1309#1627#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1668#1967#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+                <element signature="e#2787#3005#0" expanded="true" />
+                <element signature="e#3004#3005#0" expanded="true" />
+                <element signature="e#3042#3350#0" expanded="true" />
+                <element signature="e#3349#3350#0" expanded="true" />
+                <element signature="e#3384#3609#0" expanded="true" />
+                <element signature="e#3608#3609#0" expanded="true" />
+                <element signature="e#5021#5148#0" expanded="true" />
+                <element signature="e#5147#5148#0" expanded="true" />
                 <element signature="method#openAction#0;class#MainWindow#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FocusExecutor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+              <folding>
+                <element signature="method#runFocusExecution#0;class#FocusExecutor#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1537815514314" expanded="true" signature="62542:62559" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62542:62577" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62542:62590" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62542:62605" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62640:65219" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62653:65204" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62707:63002" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62726:62987" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62789:62967" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62829:62933" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="62850:62911" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63052:63379" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63071:63364" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63166:63344" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63206:63310" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63227:63288" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63430:63736" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63449:63721" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63523:63701" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63563:63667" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63584:63645" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63779:64085" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63798:64070" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63872:64050" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63912:64016" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="63933:63994" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64136:64492" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64155:64477" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64240:64457" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64280:64423" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64301:64401" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64527:64833" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64546:64818" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64620:64798" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64660:64764" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64681:64742" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64885:65190" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64904:65175" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="64977:65155" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="65017:65121" ph="..." />
+                <marker date="1537815514314" expanded="true" signature="65038:65099" ph="..." />
               </folding>
             </state>
           </provider>
@@ -86,7 +122,7 @@
       <file leaf-file-name="PixelFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/purr/backend/PixelFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="595">
               <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding>
                 <element signature="e#918#919#0" expanded="true" />
@@ -106,35 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/purr/backend/ImageFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StencilController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/purr/backend/StencilController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="387" column="63" lean-forward="false" selection-start-line="387" selection-start-column="63" selection-end-line="387" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3121#3204#0" expanded="false" />
-                <element signature="method#getNeighborNORTH_linear#0;class#StencilController#0" expanded="false" />
-                <element signature="method#getNeighborSOUTH_linear#0;class#StencilController#0" expanded="false" />
-                <element signature="method#getNeighborWEST_linear#0;class#StencilController#0" expanded="false" />
-                <element signature="method#getNeighborEAST_linear#0;class#StencilController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/purr/backend/RegionController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,7 +157,7 @@
       <file leaf-file-name="RegionFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/purr/backend/RegionFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
+            <state relative-caret-position="1377">
               <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
                 <element signature="e#2354#2355#0" expanded="true" />
@@ -226,7 +233,6 @@
         <option value="$PROJECT_DIR$/src/org/purr/models/GPixel.java" />
         <option value="$PROJECT_DIR$/src/org/purr/models/Pixel2GPixelConverter.java" />
         <option value="$PROJECT_DIR$/src/org/purr/models/Image.java" />
-        <option value="$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java" />
         <option value="$PROJECT_DIR$/src/org/purr/enums/Enums.java" />
         <option value="$PROJECT_DIR$/src/org/purr/exceptions/MissingArgumentException.java" />
         <option value="$PROJECT_DIR$/src/org/purr/models/Pixel.java" />
@@ -254,6 +260,8 @@
         <option value="$PROJECT_DIR$/src/org/purr/backend/PixelFilter.java" />
         <option value="$PROJECT_DIR$/src/org/purr/backend/RegionController.java" />
         <option value="$PROJECT_DIR$/src/org/purr/backend/RegionFilter.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java" />
       </list>
     </option>
   </component>
@@ -297,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,6 +325,13 @@
             </path>
             <path>
               <item name="3Dify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3Dify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="purr" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3Dify" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -326,12 +340,13 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ij.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -578,12 +593,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24303405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24303405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -626,21 +641,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/purr/models/RegionMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="method#Region#0;class#Region#0;class#RegionMap#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="method#prettyPrint#0;class#Region#0;class#RegionMap#0" expanded="false" />
-            <element signature="method#newRegion#0;class#RegionMap#0" expanded="false" />
-            <element signature="method#regionIndex#0;class#RegionMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/purr/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
@@ -816,14 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -891,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/purr/backend/ImageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -945,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/purr/backend/PixelFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="595">
           <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
           <folding>
             <element signature="e#918#919#0" expanded="true" />
@@ -966,7 +958,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/purr/backend/RegionFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="1377">
           <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding>
             <element signature="e#2354#2355#0" expanded="true" />
@@ -977,10 +969,82 @@
     <entry file="file://$PROJECT_DIR$/src/org/purr/view/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1309#1627#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1668#1967#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2787#3005#0" expanded="true" />
+            <element signature="e#3004#3005#0" expanded="true" />
+            <element signature="e#3042#3350#0" expanded="true" />
+            <element signature="e#3349#3350#0" expanded="true" />
+            <element signature="e#3384#3609#0" expanded="true" />
+            <element signature="e#3608#3609#0" expanded="true" />
+            <element signature="e#5021#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
             <element signature="method#openAction#0;class#MainWindow#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537815514314" expanded="true" signature="62542:62559" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62542:62577" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62542:62590" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62542:62605" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62640:65219" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62653:65204" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62707:63002" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62726:62987" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62789:62967" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62829:62933" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="62850:62911" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63052:63379" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63071:63364" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63166:63344" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63206:63310" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63227:63288" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63430:63736" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63449:63721" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63523:63701" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63563:63667" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63584:63645" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63779:64085" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63798:64070" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63872:64050" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63912:64016" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="63933:63994" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64136:64492" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64155:64477" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64240:64457" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64280:64423" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64301:64401" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64527:64833" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64546:64818" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64620:64798" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64660:64764" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64681:64742" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64885:65190" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64904:65175" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="64977:65155" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="65017:65121" ph="..." />
+            <marker date="1537815514314" expanded="true" signature="65038:65099" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/purr/backend/FocusExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+          <folding>
+            <element signature="method#runFocusExecution#0;class#FocusExecutor#0" expanded="false" />
           </folding>
         </state>
       </provider>

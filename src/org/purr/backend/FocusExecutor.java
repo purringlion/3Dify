@@ -10,6 +10,8 @@ public class FocusExecutor {
     private String imgPath;
     private boolean isReady;
     private final static String rootdir = "C:\\j\\debixcon_bin";
+    private final static String relativedir = "\\debixcon";
+    private static String workingDir;
 
     public void runFocusExecution() throws IOException
     {
@@ -19,7 +21,8 @@ public class FocusExecutor {
         try {
             ProcessBuilder pb = new ProcessBuilder(cmd);
             System.out.println("Run echo command");
-            pb.directory(new File(rootdir));
+            //pb.directory(new File(rootdir));
+            pb.directory(new File(relativedir));
             pb.redirectErrorStream(true);
             Process process = pb.start();
             int errCode = process.waitFor();
@@ -59,10 +62,13 @@ public class FocusExecutor {
 
     public void run() throws InterruptedException
     {
+        workingDir = System.getProperty("user.dir");
         ProcessBuilder pb = new ProcessBuilder("cmd.exe");
         System.out.println("Run echo command");
-        pb.directory(new File(rootdir));
+        //pb.directory(new File(rootdir));
+        pb.directory(new File(workingDir+relativedir));
         pb.redirectErrorStream(true);
+        System.out.println(pb.directory().getAbsolutePath());
         Process p = null;
 //        int errCode = p.waitFor();
         try {
